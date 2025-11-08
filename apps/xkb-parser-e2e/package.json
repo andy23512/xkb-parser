@@ -1,0 +1,26 @@
+{
+  "name": "@xkb-parser/xkb-parser-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "implicitDependencies": [
+      "@xkb-parser/xkb-parser"
+    ],
+    "targets": {
+      "e2e": {
+        "executor": "@nx/jest:jest",
+        "outputs": [
+          "{projectRoot}/test-output/jest/coverage"
+        ],
+        "options": {
+          "jestConfig": "apps/xkb-parser-e2e/jest.config.ts",
+          "passWithNoTests": true
+        },
+        "dependsOn": [
+          "@xkb-parser/xkb-parser:build",
+          "@xkb-parser/xkb-parser:serve"
+        ]
+      }
+    }
+  }
+}
