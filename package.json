@@ -2,10 +2,13 @@
   "name": "@xkb-parser/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nx serve xkb-parser"
+  },
   "private": true,
   "dependencies": {
-    "axios": "^1.6.0"
+    "axios": "^1.6.0",
+    "keysym": "^0.0.6"
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",
@@ -21,6 +24,7 @@
     "@swc/helpers": "~0.5.11",
     "@swc/jest": "~0.2.38",
     "@types/jest": "^30.0.0",
+    "@types/keysym": "^0.0.4",
     "@types/node": "20.19.9",
     "esbuild": "^0.19.2",
     "eslint": "^9.8.0",
