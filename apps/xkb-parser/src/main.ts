@@ -4,6 +4,7 @@ import { fromName } from 'keysym';
 import {
   KeyBoardLayout,
   KeyboardLayoutKey,
+  KeyboardLayoutKeyOutput,
   KlfcResult,
   WSKCode,
 } from './model';
@@ -59,7 +60,7 @@ const KLFC_RESULT_KEY_POS_TO_WSK_CODE = new Map<string, WSKCode>([
   ['/', 'Slash'],
 ]);
 
-const basePath = '/Users/nanoha/git/xkeyboard-config/symbols';
+const basePath = '../xkeyboard-config/symbols';
 
 // const result1 = execSync(`klfc --from-xkb "${basePath}/us"`, {encoding:'utf8'});
 const result = execSync(`klfc --from-xkb "${basePath}/fr(bre)"`, {
@@ -79,7 +80,7 @@ function convertKlfcResultToKeyboardLayout(result: KlfcResult): KeyBoardLayout {
     const keyboardLayoutKey: Partial<KeyboardLayoutKey> = {};
     k.letters.forEach((letter, index) => {
       const shiftlevel = shiftlevels[index];
-      const normalizedLetter = normalizeLetter(letter);
+      const normalizedLetter = normalizeKeyOutput(letter);
       switch (shiftlevel) {
         case 'None':
           keyboardLayoutKey.unmodified = normalizedLetter;
@@ -98,12 +99,12 @@ function convertKlfcResultToKeyboardLayout(result: KlfcResult): KeyBoardLayout {
     layoutRecords[code] = keyboardLayoutKey;
   });
   if (layoutRecords.KeyM) {
-    layoutRecords.KeyM.unmodified = 'ch';
-    layoutRecords.KeyM.withShift = 'Ch';
+    layoutRecords.KeyM.unmodified = { type: 'text', value: 'ch' };
+    layoutRecords.KeyM.withShift = { type: 'text', value: 'Ch' };
   }
   if (layoutRecords.KeyQ) {
-    layoutRecords.KeyQ.unmodified = 'c’h';
-    layoutRecords.KeyQ.withShift = 'C’h';
+    layoutRecords.KeyQ.unmodified = { type: 'text', value: 'c’h' };
+    layoutRecords.KeyQ.withShift = { type: 'text', value: 'C’h' };
   }
   return {
     id: `${result.name}@xkeyboard`,
@@ -119,7 +120,19 @@ function convertKlfcResultKeyPosToWSKCode(pos: string): WSKCode | null {
   return KLFC_RESULT_KEY_POS_TO_WSK_CODE.get(pos) ?? null;
 }
 
-function normalizeLetter(letter: string) {
+function normalizeKeyOutput(letter: string): KeyboardLayoutKeyOutput {
+  const charMap = {
+    abovering: '˚',
+  };
+  const nameMap = {
+    circumflex: 'asciicircum',
+    diaeresis: 'diaeresis',
+    tilde: 'asciitilde',
+    grave: 'grave',
+    acute: 'acute',
+    macron: 'macron',
+    abovedot: 'abovedot',
+  };
   if (
     [
       'circumflex',
@@ -132,9 +145,21 @@ function normalizeLetter(letter: string) {
       'abovedot',
     ].includes(letter)
   ) {
-    return (
+    console.log(
+      charMap[letter as keyof typeof charMap] ||
+        String.fromCodePoint(
+          fromName(nameMap[letter as keyof typeof nameMap])?.unicode as number
+        ),
       '◌' + String.fromCodePoint(fromName('dead_' + letter)?.unicode as number)
     );
+    return {
+      type: 'dead-key',
+      value:
+        charMap[letter as keyof typeof charMap] ||
+        String.fromCodePoint(
+          fromName(nameMap[letter as keyof typeof nameMap])?.unicode as number
+        ),
+    };
   }
-  return letter;
+  return { type: 'text', value: letter };
 }
