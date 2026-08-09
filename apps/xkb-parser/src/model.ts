@@ -51,9 +51,15 @@ export type WSKCode =
   | 'Semicolon'
   | 'Slash';
 
+export interface DeadKeyResult {
+  with: string;
+  text: string;
+}
+
 export interface KeyboardLayoutKeyOutput {
   type: 'text' | 'dead-key';
   value: string;
+  deadKeyResults?: DeadKeyResult[];
 }
 
 /**

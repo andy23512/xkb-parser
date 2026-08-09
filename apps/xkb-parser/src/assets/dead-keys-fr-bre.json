@@ -1,0 +1,576 @@
+{
+  "¯": [
+    {
+      "with": "a",
+      "text": "ā"
+    },
+    {
+      "with": "h",
+      "text": "ħ"
+    },
+    {
+      "with": "d",
+      "text": "ð"
+    },
+    {
+      "with": "e",
+      "text": "ē"
+    },
+    {
+      "with": "u",
+      "text": "ū"
+    },
+    {
+      "with": "i",
+      "text": "ī"
+    },
+    {
+      "with": "t",
+      "text": "þ"
+    },
+    {
+      "with": "y",
+      "text": "ȳ"
+    },
+    {
+      "with": "o",
+      "text": "ō"
+    },
+    {
+      "with": "A",
+      "text": "Ā"
+    },
+    {
+      "with": "H",
+      "text": "Ħ"
+    },
+    {
+      "with": "D",
+      "text": "Ð"
+    },
+    {
+      "with": "E",
+      "text": "Ē"
+    },
+    {
+      "with": "U",
+      "text": "Ū"
+    },
+    {
+      "with": "I",
+      "text": "Ī"
+    },
+    {
+      "with": "T",
+      "text": "Þ"
+    },
+    {
+      "with": "Y",
+      "text": "Ȳ"
+    },
+    {
+      "with": "O",
+      "text": "Ō"
+    },
+    {
+      "with": " ",
+      "text": "¯"
+    }
+  ],
+  "´": [
+    {
+      "with": "n",
+      "text": "ń"
+    },
+    {
+      "with": "a",
+      "text": "á"
+    },
+    {
+      "with": "w",
+      "text": "ẃ"
+    },
+    {
+      "with": "e",
+      "text": "é"
+    },
+    {
+      "with": "u",
+      "text": "ú"
+    },
+    {
+      "with": "i",
+      "text": "í"
+    },
+    {
+      "with": "y",
+      "text": "ý"
+    },
+    {
+      "with": "o",
+      "text": "ó"
+    },
+    {
+      "with": "N",
+      "text": "Ń"
+    },
+    {
+      "with": "A",
+      "text": "Á"
+    },
+    {
+      "with": "W",
+      "text": "Ẃ"
+    },
+    {
+      "with": "E",
+      "text": "É"
+    },
+    {
+      "with": "U",
+      "text": "Ú"
+    },
+    {
+      "with": "I",
+      "text": "Í"
+    },
+    {
+      "with": "Y",
+      "text": "Ý"
+    },
+    {
+      "with": "O",
+      "text": "Ó"
+    },
+    {
+      "with": " ",
+      "text": "´"
+    }
+  ],
+  "`": [
+    {
+      "with": "a",
+      "text": "à"
+    },
+    {
+      "with": "w",
+      "text": "ẁ"
+    },
+    {
+      "with": "e",
+      "text": "è"
+    },
+    {
+      "with": "u",
+      "text": "ù"
+    },
+    {
+      "with": "i",
+      "text": "ì"
+    },
+    {
+      "with": "y",
+      "text": "ỳ"
+    },
+    {
+      "with": "o",
+      "text": "ò"
+    },
+    {
+      "with": "A",
+      "text": "À"
+    },
+    {
+      "with": "W",
+      "text": "Ẁ"
+    },
+    {
+      "with": "E",
+      "text": "È"
+    },
+    {
+      "with": "U",
+      "text": "Ù"
+    },
+    {
+      "with": "I",
+      "text": "Ì"
+    },
+    {
+      "with": "Y",
+      "text": "Ỳ"
+    },
+    {
+      "with": "O",
+      "text": "Ò"
+    },
+    {
+      "with": " ",
+      "text": "`"
+    }
+  ],
+  "^": [
+    {
+      "with": "c",
+      "text": "ĉ"
+    },
+    {
+      "with": "a",
+      "text": "â"
+    },
+    {
+      "with": "h",
+      "text": "ĥ"
+    },
+    {
+      "with": "j",
+      "text": "ĵ"
+    },
+    {
+      "with": "g",
+      "text": "ĝ"
+    },
+    {
+      "with": "s",
+      "text": "ŝ"
+    },
+    {
+      "with": "w",
+      "text": "ŵ"
+    },
+    {
+      "with": "e",
+      "text": "ê"
+    },
+    {
+      "with": "u",
+      "text": "û"
+    },
+    {
+      "with": "i",
+      "text": "î"
+    },
+    {
+      "with": "y",
+      "text": "ŷ"
+    },
+    {
+      "with": "o",
+      "text": "ô"
+    },
+    {
+      "with": "C",
+      "text": "Ĉ"
+    },
+    {
+      "with": "A",
+      "text": "Â"
+    },
+    {
+      "with": "H",
+      "text": "Ĥ"
+    },
+    {
+      "with": "J",
+      "text": "Ĵ"
+    },
+    {
+      "with": "G",
+      "text": "Ĝ"
+    },
+    {
+      "with": "S",
+      "text": "Ŝ"
+    },
+    {
+      "with": "W",
+      "text": "Ŵ"
+    },
+    {
+      "with": "E",
+      "text": "Ê"
+    },
+    {
+      "with": "U",
+      "text": "Û"
+    },
+    {
+      "with": "I",
+      "text": "Î"
+    },
+    {
+      "with": "Y",
+      "text": "Ŷ"
+    },
+    {
+      "with": "O",
+      "text": "Ô"
+    },
+    {
+      "with": " ",
+      "text": "^"
+    }
+  ],
+  "¨": [
+    {
+      "with": "a",
+      "text": "ä"
+    },
+    {
+      "with": "w",
+      "text": "ẅ"
+    },
+    {
+      "with": "e",
+      "text": "ë"
+    },
+    {
+      "with": "u",
+      "text": "ü"
+    },
+    {
+      "with": "i",
+      "text": "ï"
+    },
+    {
+      "with": "y",
+      "text": "ÿ"
+    },
+    {
+      "with": "o",
+      "text": "ö"
+    },
+    {
+      "with": "A",
+      "text": "Ä"
+    },
+    {
+      "with": "W",
+      "text": "Ẅ"
+    },
+    {
+      "with": "E",
+      "text": "Ë"
+    },
+    {
+      "with": "U",
+      "text": "Ü"
+    },
+    {
+      "with": "I",
+      "text": "Ï"
+    },
+    {
+      "with": "Y",
+      "text": "Ÿ"
+    },
+    {
+      "with": "O",
+      "text": "Ö"
+    },
+    {
+      "with": " ",
+      "text": "¨"
+    }
+  ],
+  "~": [
+    {
+      "with": "n",
+      "text": "ñ"
+    },
+    {
+      "with": "a",
+      "text": "ã"
+    },
+    {
+      "with": "e",
+      "text": "ẽ"
+    },
+    {
+      "with": "u",
+      "text": "ũ"
+    },
+    {
+      "with": "i",
+      "text": "ĩ"
+    },
+    {
+      "with": "y",
+      "text": "ỹ"
+    },
+    {
+      "with": "o",
+      "text": "õ"
+    },
+    {
+      "with": "N",
+      "text": "Ñ"
+    },
+    {
+      "with": "A",
+      "text": "Ã"
+    },
+    {
+      "with": "E",
+      "text": "Ẽ"
+    },
+    {
+      "with": "U",
+      "text": "Ũ"
+    },
+    {
+      "with": "I",
+      "text": "Ĩ"
+    },
+    {
+      "with": "Y",
+      "text": "Ỹ"
+    },
+    {
+      "with": "O",
+      "text": "Õ"
+    },
+    {
+      "with": " ",
+      "text": "~"
+    }
+  ],
+  "˙": [
+    {
+      "with": "b",
+      "text": "ḃ"
+    },
+    {
+      "with": "n",
+      "text": "ṅ"
+    },
+    {
+      "with": "c",
+      "text": "ċ"
+    },
+    {
+      "with": "z",
+      "text": "ż"
+    },
+    {
+      "with": "a",
+      "text": "å"
+    },
+    {
+      "with": "h",
+      "text": "ḣ"
+    },
+    {
+      "with": "g",
+      "text": "ġ"
+    },
+    {
+      "with": "f",
+      "text": "ḟ"
+    },
+    {
+      "with": "d",
+      "text": "ḋ"
+    },
+    {
+      "with": "m",
+      "text": "ṁ"
+    },
+    {
+      "with": "s",
+      "text": "ṡ"
+    },
+    {
+      "with": "l",
+      "text": "ŀ"
+    },
+    {
+      "with": "p",
+      "text": "ṗ"
+    },
+    {
+      "with": "u",
+      "text": "ŭ"
+    },
+    {
+      "with": "t",
+      "text": "ṫ"
+    },
+    {
+      "with": "o",
+      "text": "ø"
+    },
+    {
+      "with": "B",
+      "text": "Ḃ"
+    },
+    {
+      "with": "N",
+      "text": "Ṅ"
+    },
+    {
+      "with": "C",
+      "text": "Ċ"
+    },
+    {
+      "with": "Z",
+      "text": "Ż"
+    },
+    {
+      "with": "A",
+      "text": "Å"
+    },
+    {
+      "with": "H",
+      "text": "Ḣ"
+    },
+    {
+      "with": "G",
+      "text": "Ġ"
+    },
+    {
+      "with": "F",
+      "text": "Ḟ"
+    },
+    {
+      "with": "D",
+      "text": "Ḋ"
+    },
+    {
+      "with": "M",
+      "text": "Ṁ"
+    },
+    {
+      "with": "S",
+      "text": "Ṡ"
+    },
+    {
+      "with": "L",
+      "text": "Ŀ"
+    },
+    {
+      "with": "P",
+      "text": "Ṗ"
+    },
+    {
+      "with": "U",
+      "text": "Ŭ"
+    },
+    {
+      "with": "T",
+      "text": "Ṫ"
+    },
+    {
+      "with": "O",
+      "text": "Ø"
+    },
+    {
+      "with": "ſ",
+      "text": "ẛ"
+    },
+    {
+      "with": " ",
+      "text": "˙"
+    }
+  ]
+}
